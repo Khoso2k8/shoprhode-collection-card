@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  width: 100vw;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+}
+
+.product-box img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.details-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.2rem;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem 0;
+}
+
+.type {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  margin: 0.3rem 0;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.variation-box p {
+  text-align: center;
+  margin: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.variation-box ul {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
