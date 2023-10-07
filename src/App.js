@@ -112,7 +112,7 @@ function App() {
             </div>
             <div className="details-box">
               <div className="detail">
-                <a href="#">
+                <a href="/">
                   <div className="title">{product.title}</div>
                   <div className="type">{product.type}</div>
                   <div className="price">Rs. {product.price}</div>
