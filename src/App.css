@@ -32,20 +32,20 @@ body {
 }
 
 .title {
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0.5rem 0;
 }
 
 .type {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-transform: capitalize;
   margin: 0.3rem 0;
 }
 
 .price {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -56,13 +56,14 @@ a {
 
 .variation-box p {
   text-align: center;
-  margin: 1.2rem;
+  margin: 1rem;
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .variation-box ul {
+  font-size: 1rem;
   list-style: none;
   display: flex;
   gap: 2.4rem;
@@ -70,15 +71,33 @@ a {
 
 /* media queries */
 
-@media (max-width: 56em) {
+@media (max-width: 93em) {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
   }
+  .title {
+    font-size: 1.4rem;
+  }
+
+  .type {
+    font-size: 1.2rem;
+  }
+
+  .price {
+    font-size: 1rem;
+  }
+  .variation-box p {
+    font-size: 1rem;
+  }
+
+  .variation-box ul {
+    font-size: 1rem;
+  }
 }
 
-@media (max-width: 40em) {
+@media (max-width: 70em) {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -86,7 +105,7 @@ a {
   }
 }
 
-@media (max-width: 28em) {
+@media (max-width: 49em) {
   .products {
     display: grid;
     grid-template-columns: 1fr;
