@@ -62,3 +62,29 @@ body {
   display: flex;
   gap: 2.4rem;
 }
+
+/* media queries */
+
+@media (max-width: 56em) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+  }
+}
+
+@media (max-width: 40em) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+}
+
+@media (max-width: 28em) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+}
