@@ -49,6 +49,11 @@ body {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .variation-box p {
   text-align: center;
   margin: 1.2rem;

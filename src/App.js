@@ -112,9 +112,11 @@ function App() {
             </div>
             <div className="details-box">
               <div className="detail">
-                <div className="title">{product.title}</div>
-                <div className="type">{product.type}</div>
-                <div className="price">Rs. {product.price}</div>
+                <a href="#">
+                  <div className="title">{product.title}</div>
+                  <div className="type">{product.type}</div>
+                  <div className="price">Rs. {product.price}</div>
+                </a>
               </div>
               <div className="variation-box">
                 <p>Select a size</p>
